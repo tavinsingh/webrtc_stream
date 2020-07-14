@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Stream 1</title>
+  </head>
+
+  <body>
+    <video playsinline autoplay muted></video>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/streamer.js"></script>
+
+    <button type="button" onclick="startStream()" >Start</button>
+    <button type="button" onclick="pauseStream()" >Pause</button>
+    <button type="button" onclick="stopStream()" >Stop</button>
+    <button type="button" onclick="startRecording()" >Start Recording</button>
+    <button type="button" onclick="stopRecording()" >Stop Recording</button>
+    <button type="button" onclick="download()" >Download</button>
+
+
+  </body>
+</html>
